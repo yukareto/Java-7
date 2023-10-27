@@ -42,7 +42,7 @@ public class RacerController {
             }
         }
         //  racerListにない名前を指定したときは
-        return new RacerQueryResponse("リタイヤ");
+        return new RacerQueryResponse("コースアウト");
     }
 
 
