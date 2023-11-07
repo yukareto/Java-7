@@ -1,18 +1,15 @@
 package com.supergt.racingdriver.request;
 
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.time.LocalDate;
 
-public class RacerUpdateRequest {
-    public String givenName;
+public class MessageRequest {
+    private String givenName;
 
-    public String familyName;
+    private String familyName;
 
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate birthday;
 
-    public RacerUpdateRequest(String givenName, String familyName, LocalDate birthday) {
+    public MessageRequest(String givenName, String familyName, LocalDate birthday) {
         this.givenName = givenName;
         this.familyName = familyName;
         this.birthday = birthday;
@@ -30,4 +27,3 @@ public class RacerUpdateRequest {
         return birthday;
     }
 }
-
