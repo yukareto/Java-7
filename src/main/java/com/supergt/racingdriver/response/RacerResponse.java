@@ -3,13 +3,9 @@ package com.supergt.racingdriver.response;
 import java.time.LocalDate;
 
 public class RacerResponse {
-
     private String givenName;
-
     public String familyName;
-
     public LocalDate birthday;
-
 
     public RacerResponse(String givenName, String familyName, LocalDate birthday) {
         this.givenName = givenName;

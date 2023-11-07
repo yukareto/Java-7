@@ -1,9 +1,9 @@
 package com.supergt.racingdriver.response;
 
-public class RacerCreateResponse {
+public class MessageResponse {
     private String message;
 
-    public RacerCreateResponse(String message) {
+    public MessageResponse(String message) {
         this.message = message;
     }
 
@@ -11,3 +11,4 @@ public class RacerCreateResponse {
         return message;
     }
 }
+
